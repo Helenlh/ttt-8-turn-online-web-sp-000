@@ -9,7 +9,7 @@ end
 
 
 def input_to_index(user_input) 
-  (1..9).include?(user_input)
+  #(1..9).include?(user_input)
 number = user_input.to_i 
 index = number - 1
 end  
@@ -26,7 +26,7 @@ end
  
  
 def position_taken?(board, index)
- if board[index] == " " && board[index] == "" 
+ if board[index] == " " || board[index] == "" 
    false 
  else
    true 
