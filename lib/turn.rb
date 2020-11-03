@@ -35,7 +35,7 @@ def position_taken?(board, index)
  
  
 def move(board, index, value = "X")   
-  board[index] = value  
+  board[index] = value   
 end 
 
 
