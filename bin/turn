@@ -4,5 +4,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 user_input = gets.chomp 
 display_board(board)
-turn(board) 
 
